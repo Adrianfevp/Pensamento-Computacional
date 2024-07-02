@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="turing.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Turing</title>
+</head>
+<body>
+    <div class="topper">
+        <header>
+        <div class="logo-container">
+         <a href="autoria.html">
+            <video class="logo" autoplay loop muted>
+                <source src="Animated Logo.mp4" type="video/mp4">
+            </video>
+         </a>
+        </div>
+        <div>
+            <div >
+            <a class="botão2" href="index.html">Início</a>
+            <a class="botão3" href="Linha do Tempo.html">Linha do Tempo</a>
+            <a class="botão4" href="films.html">Recomendações</a>
+            </div>
+    </header>
+</div>
+    <main>
+        <h1>Teste de Turing</h1>
+        <p>O Teste de Turing é uma avaliação da capacidade de uma máquina em exibir comportamento inteligente equivalente, ou indistinguível, do comportamento humano. Proposto por Alan Turing em 1950, o teste envolve três participantes: uma máquina (A), um humano (B) e um interrogador humano (C). O interrogador se comunica com A e B através de um terminal, sem saber qual é a máquina e qual é o humano. Se o interrogador não conseguir distinguir consistentemente qual dos participantes é a máquina com base nas respostas dadas, a máquina passa no teste.</p>
+    
+        <h2>Elementos-chave do Teste de Turing</h2>
+        <ol>
+            <li><strong>Interação via linguagem natural</strong>: A comunicação é feita por texto, para que o interrogador não tenha pistas visuais ou auditivas sobre a identidade dos participantes.</li>
+            <li><strong>Desempenho em respostas</strong>: A máquina deve responder de maneira suficientemente semelhante a um humano, a ponto de enganar o interrogador.</li>
+            <li><strong>Objetivo</strong>: Avaliar a capacidade da máquina de pensar de maneira inteligente.</li>
+        </ol>
+    
+        <h2>Critérios</h2>
+        <ul>
+            <li><strong>Ambiguidade</strong>: As respostas da máquina devem ser tão convincentes e naturais quanto as do humano.</li>
+            <li><strong>Consistência</strong>: O interrogador não deve ser capaz de discernir a máquina do humano de forma consistente após várias interações.</li>
+        </ul>
+    
+        <h2>Importância</h2>
+        <p>O Teste de Turing é um marco na filosofia da inteligência artificial (IA), pois propõe uma definição operacional para a inteligência: se uma máquina pode imitar um humano de forma convincente, ela pode ser considerada inteligente.</p>
+    
+        <h2>Limitações</h2>
+        <ul>
+            <li><strong>Imitação não é compreensão</strong>: Passar no Teste de Turing não prova que a máquina realmente entende ou possui consciência, apenas que pode imitar respostas humanas.</li>
+            <li><strong>Capacidade limitada</strong>: Máquinas especializadas em passar no Teste de Turing podem não ser capazes de realizar outras tarefas inteligentes.</li>
+        </ul>
+    
+        <p>Apesar das suas limitações, o Teste de Turing continua sendo uma referência importante para discutir a evolução e as capacidades da inteligência artificial.</p>
+     </main>
+     <div class="container">
+        <a href="https://www.humanornot.ai/" class="botão1">Teste de Turing</a>
+    </div>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const botao = document.querySelector('.botão1');
+
+    botao.addEventListener('mouseover', function() {
+        document.body.style.backgroundImage = 'url("turing.png")';
+        document.body.classList.add('darken-overlay');
+        document.body.style.color = 'rgb(77,255,0)';
+    });
+
+    botao.addEventListener('mouseout', function() {
+        document.body.style.backgroundImage = 'none';
+        document.body.classList.remove('darken-overlay');
+        document.body.style.backgroundColor = 'black';
+        document.body.style.color = 'rgb(0, 165, 0)';
+    });
+});
+      </script>
+</body>
+</html>
