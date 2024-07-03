@@ -5,9 +5,9 @@ const autorOptions = document.querySelectorAll('.autor-option');
 		let startX, scrollLeft;
 
 		const autorInfo = {
-			'adrian-fernando': 'Realizou as páginas de filmes e catálogo, de turing e a página dos autores.',
+			'adrian-fernando': 'Realizou as páginas de filmes e catálogos, de turing e a página dos autores.',
 			'arthur-de-moraes':'Deu ideias de criação e layout das páginas.',
-			'gustavo-felchner': 'Realizou a pesquisa historica e a página inicial.',
+			'gustavo-felchner': 'Realizou a pesquisa histórica e a página inicial.',
 			'matheus-campos':'Realizou a organização nos arquivos css e arrumou os backgrounds.',
 			'iohan-stenger':'Realizou as páginas da linha do tempo e a de turing.',
 			'italo-terue': 'Realizou o header das páginas, a linha do tempo e a logo.',
